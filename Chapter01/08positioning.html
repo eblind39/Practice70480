@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+        <link href="media/images/favicon.png" rel="icon">
+		<title>08 Positioning</title>
+		<script type="text/javascript" lang="javascript" src="js/08positioning.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css" >
+        <link rel="stylesheet" type="text/css" href="css/08positioning.css" >
+	</head>
+	<body>
+        <table>
+            <tr>
+                <td style="vertical-align: top; width: 80%">
+                    <img id="orange1" src="media/images/orange.jpg" />
+                    <img id="orange2" src="media/images/orange.jpg" />
+                </td>
+                <td style="vertical-align: top;">Left:
+                    <input type="text" id="leftText" />
+                    <br/> Top:
+                    <input type="text" id="topText" />
+                    <br/> Position:
+                    <select id="positioning">
+                        <option>relative</option>
+                        <option>absolute</option>
+                    </select>
+                    <br/>
+                    <input type="button" id="btnPosition" value="Update" />
+                    <input type="button" id="btnTransform" value="Transform" />
+                    <input type="button" id="btnFlipX" value="FlipX" />
+                    <input type="button" id="btnFlipY" value="FlipY" />
+                    <input type="button" id="btnTranslate" value="Translate" />
+                    <input type="button" id="btnSkew" value="Skew" />
+                    <input type="button" id="btnAllInOne" value="AllInOne" />
+                    <button type="button" id="btnHideAnElement" >Show/Hide Element</button>
+                </td>
+            </tr>
+        </table>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+1.  Which of the following isn’t a supported way to add an event handler to a DOM
+element?
+    A.  Declaring within the HTML element by assigning the event attribute to a JavaScript
+    function
+    >>> B.  Setting the attribute in CSS to a valid JavaScript function
+    C.  Dynamically through JavaScript by assigning a JavaScript function to the object's
+    event property
+    D.  Dynamically through JavaScript via the assign/remove event listener methods
+2.  Which of the following isn’t an attribute of an anonymous function?
+    A.  Anonymous functions can’t be called by any other code.
+    >>> B.  Anonymous functions have a clearly defined name.
+    C.  Anonymous functions can be passed as parameters.
+    D.  Anonymous functions can’t be assigned to a DOM element declaratively.
+3.  Which code line would successfully cancel an event?
+    A.  window.event.returnValue = false;
+    >>> B.  return false;
+    C.  window.event.Return();
+    D.  window.Stop();
+4.  Which event occurs when a DOM element receives the cursor?
+    >>> A.  focus
+    B.  change
+    C.  keydown
+    D.  mouseleave
+5.  Which option provides the correct sequence of events in a drag-and-drop operation?
+    >>> A.  dragstart, drag, dragenter, drop
+    B.  dragstart, drag, dragenter, dragstop
+    C.  drag, dragstart, drop, dragenter
+    D.  drag, dragstart, dragenter, dragstop

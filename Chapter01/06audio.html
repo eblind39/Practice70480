@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+        <link href="media/images/favicon.png" rel="icon">
+		<title>HTML5 Audio</title>
+		<script type="text/javascript" lang="javascript" src="js/06audio.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css" >
+        <link rel="stylesheet" type="text/css" href="css/06audio.css" >
+	</head>
+	<body>
+		<section id="secContainer">
+            <hgroup>
+                <h1>HTML5 Audio Demonstration</h1>
+            </hgroup>
+            <article>
+                <hgroup>
+                    <h3>Savvas - custom controls</h3>
+                </hgroup>
+                <!-- poster attribute works when autoplay is not setted -->
+                <audio id="audTGName" src="media/audio/savvas_killer_re-edit.mp3"></audio>
+                <section id="secAudioBttns">
+                    <input id="btnPlay" class="audio_button" type="button" title="Play" />
+                    <input id="btnPause" class="audio_button" type="button" title="Pause" />
+                    <input id="btnStop" class="audio_button" type="button" title="Stop" />
+                    <input id="btnRewind" class="audio_button" type="button" title="Rewind" />
+                </section>
+            </article>
+            <article>
+                <hgroup>
+                    <h3>built-in audio controls</h3>
+                </hgroup>
+                <audio src="media/audio/savvas_killer_re-edit.mp3" autoplay controls></audio>
+            </article>
+            <article>
+                <hgroup>
+                    <h3>Multiple source audios</h3>
+                </hgroup>
+                <!-- source - is used to list different video formats for the same media video -->
+                <!-- browser goes from top to bottom for the fisrt supported file format       -->
+                <!-- object - indicates if da browser does not support any video format listed -->
+                <audio controls width="640" height="480" poster="media/images/tame_impala_640x480.jpg">
+                    <source src="media/audio/savvas_killer_re-edit.mp3" type="audio/ogg"/>
+                    <source src="media/audio/savvas_killer_re-edit.ogg" type="audio/mp4"/>
+                    <object>
+                        <p>Audio format is not supported by this browser.</p>
+                    </object>
+                </audio>
+            </article>
+		</section>
+	</body>
+</html>

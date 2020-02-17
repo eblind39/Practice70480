@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 150px;
+    width: 225px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+#btnAllInOne {
+    color: tomato;
+    background-color: wheat;
+}
+
+.rota {
+    transform: rotate(-90deg);  /* counterclockwise */
+}
+
+.escala {
+    transform: scale(0.5);
+}
+
+.flipx {
+    transform: rotateX(180deg);
+}
+
+.flipy {
+    transform: rotateY(180deg);
+}
+
+.trasladar {
+    transform: translate(0px, 50px);
+}
+
+.inclinar {
+    transform: skew(10deg, 10deg);
+}
+
+.allinone {
+    transform:  rotate(-90deg) rotateX(180deg) rotateY(180deg) scale(0.5) skew(10deg, 10deg) translate(0px, 50px);
+}

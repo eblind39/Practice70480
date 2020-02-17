@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# My Web Application Cache Manifest
+# v.1.0.0.25
+#
+#Cache Section. All Cached items.
+
+CACHE:
+07canvas.html
+08positioning.html
+
+#Required Network resources
+NETWORK:
+01first.html
+
+#Fallback items.
+FALLBACK:
+05video.html 06audio.html

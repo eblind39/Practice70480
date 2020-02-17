@@ -1,0 +1,28 @@
+#secAudioBttns {
+    background-color: tomato;
+    width: 640px;
+}
+.audio_button {
+    border: none;
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+.audio_button:hover {
+    cursor: pointer;
+}
+
+#btnPlay {
+    background-image: url("../media/images/play.png");
+}
+#btnPause {
+    background-image: url("../media/images/pause.png");
+}
+#btnStop {
+    background-image: url("../media/images/stop.png");
+}
+#btnRewind {
+    background-image: url("../media/images/rewind.png");
+}

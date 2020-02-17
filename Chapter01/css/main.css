@@ -1,0 +1,30 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+	color: #D2D2D2;				/*Simple white*/
+	background-color: #242424;	/*dark mode*/
+}
+
+p {
+	color: #27776A;		/*simple green*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #AB8A9F;		/*simple purple*/
+}
+
+figcaption {
+	color: #8E8E8E;		/*simple white comment*/
+}
+
+table {
+    color: #A5545D;     /* simple red */
+}
+
+ul, ol {
+    color: #6796A6;     /* simple blue */
+}
+
+article {
+    color: #C09177;     /* simple orange */
+}
